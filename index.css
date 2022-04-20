@@ -55,8 +55,10 @@
 
 @media only screen and (min-width: 576px) {
     .images_container {
-        flex-wrap: wrap; /*si no cabe se pasa a la siguiente linea*/
+        flex-wrap: wrap;
+        flex-direction: row; /*si no cabe se pasa a la siguiente linea*/
         justify-content: space-evenly;
+
         gap: 32px;
         padding: 24px 32px;
     }
@@ -67,10 +69,11 @@
     }
 
     .images_container .pet_image {
-        border-radius: 40px;
         /*  width: 100%; /*solo cuando movil*/
-        height: 280px;
-        width: auto;
+        height: 350px;
         object-fit: cover;
+        width: 260px;
+        max-height: 800px;
+        max-width: fit-content;
     }
 }
