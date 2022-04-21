@@ -132,8 +132,6 @@ body {
     display: none;
 }
 
-/*ORDENADOR*/
-
 @media only screen and (min-width: 576px) {
     .images_container {
         flex-wrap: wrap;
