@@ -2,8 +2,17 @@ body {
     margin: 0;
 }
 
-.pet_activities {
+.main_title {
+    text-align: center;
     font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    color: black;
+}
+
+.main_subtitle {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: #ed6436;
 }
 
 .images_container {
@@ -27,24 +36,10 @@ body {
     display: none;
 }
 
-.text_container {
+.title_button_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.pet_activities {
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 20px;
-    color: #ed6436;
-}
-.closer_look {
-    /* cambiar el nombre*/
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 40px;
-    color: black;
 }
 
 .button_view {
@@ -53,7 +48,7 @@ body {
     border-radius: 0 36px 36px;
     border: 1px solid #ed6436;
     padding: 16px 24px;
-    margin: 40px;
+    margin: 20px;
     color: white;
 }
 
@@ -161,6 +156,7 @@ body {
         font-family: "Courier New", Courier, monospace;
         color: black;
         padding: 10px;
+        text-decoration: none;
     }
 
     .buy_button {
@@ -187,5 +183,45 @@ body {
         font-family: "Courier New", Courier, monospace;
         color: #ed6436;
         padding: 10px;
+        text-decoration: underline;
+    }
+
+    .sutitle_container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px;
+    }
+
+    .main_subtitle {
+        text-align: left;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 20px;
+        color: #ed6436;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .main_title {
+        text-align: left;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .button_view {
+        height: auto;
+        background-color: #ed6436;
+        border-radius: 0 36px 36px;
+        border: 1px solid #ed6436;
+        padding: 16px 24px;
+        color: white;
+    }
+
+    .title_button_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
