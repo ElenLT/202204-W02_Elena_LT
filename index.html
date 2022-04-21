@@ -12,12 +12,16 @@
         <header>
             <nav class="navigation_bar">
                 <ul class="navigation_list">
-                    <li><img src="images/logo2.png" alt="Logo" /></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Life Demo</a></li>
-                    <li><a href="#">Life Demo Blocks</a></li>
+                    <li class="first_item">
+                        <img class="logo" src="images/logo2.png" alt="Logo" />
+                    </li>
+                    <li><a class="list_items" href="#">Home</a></li>
+                    <li><a class="list_items" href="#">Life Demo</a></li>
+                    <li><a class="list_items" href="#">Life Demo Blocks</a></li>
                     <li>
-                        <a href="#"> <button>Buy Now</button></a>
+                        <a href="#">
+                            <button class="buy_button">Buy Now</button></a
+                        >
                     </li>
                 </ul>
             </nav>
@@ -26,24 +30,42 @@
             <div class="text_container">
                 <h2 class="pet_activities">PET ACTIVITIES</h2>
                 <h1 class="closer_look">Take a closer look</h1>
-                <button type="button" class="button_view">View all!</button>
+                <button class="button_view" type="button">View all!</button>
             </div>
             <div class="images_container">
-                <img
-                    class="pet_image"
-                    src="images/01.jpg"
-                    alt="Cachorro de perro mordiendo un juguete"
-                />
-                <img
-                    class="pet_image"
-                    src="images/02.jpg"
-                    alt="Gato escondido bajo una manta asomando la cabeza"
-                />
-                <img
-                    class="pet_image"
-                    src="images/03.jpg"
-                    alt="Perro corriendo en el campo"
-                />
+                <div class="card">
+                    <div class="card_text">
+                        <h5 class="card_text_subtitle">ACTIVITIES</h5>
+                        <h3 class="card_text_title">Toys Playtime</h3>
+                    </div>
+                    <img
+                        class="pet_image"
+                        src="images/01.jpg"
+                        alt="Cachorro mordiendo un juguete"
+                    />
+                </div>
+                <div class="card">
+                    <div class="card_text">
+                        <h5 class="card_text_subtitle">ACTIVITIES</h5>
+                        <h3 class="card_text_title">Active Rest</h3>
+                    </div>
+                    <img
+                        class="pet_image"
+                        src="images/02.jpg"
+                        alt="Gato escondido bajo una manta asomando la cabeza"
+                    />
+                </div>
+                <div class="card">
+                    <div class="card_text">
+                        <h5 class="card_text_subtitle">ACTIVITIES</h5>
+                        <h3 class="card_text_title">Game Walks</h3>
+                    </div>
+                    <img
+                        class="pet_image"
+                        src="images/03.jpg"
+                        alt="Perro corriendo en el campo"
+                    />
+                </div>
             </div>
         </main>
     </body>
